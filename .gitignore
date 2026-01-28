@@ -205,3 +205,20 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Environment / Database
+.env
+*.db
+auth_database.db
+
+# Distribution
+dist/
+build/
+*.egg-info/
+.vscode/launch.json
